@@ -2,23 +2,24 @@ package com.simayuygur.springbootlearning.controller;
 
 import com.simayuygur.springbootlearning.bean.BeanConfig;
 import jakarta.annotation.PostConstruct;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.logging.Logger;
-
 @Controller
 public class BeanController {
-//instead of inject we use autowired
+
+    private static final Logger LOG = LoggerFactory.getLogger(BeanController.class);
+
     @Autowired
     BeanConfig beanConfig;
 
 
     ////////////////////
-    @Autowired
-    Logger LOG;
+
 
     /*
     //constructor without parameter
@@ -33,7 +34,7 @@ public class BeanController {
     }
 
 
-    //http://localhost:8080/ bean/beanDto
+    //http://localhost:8080/bean/beanDto
     @GetMapping("/bean/beanDto")
     @ResponseBody  // show it on the monitor without html
     public String getBean(){
