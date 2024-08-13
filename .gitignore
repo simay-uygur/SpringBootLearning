@@ -1,6 +1,7 @@
  ### special commit
  /log/
  /memory_persist/
+.log/
 
 HELP.md
 target/
