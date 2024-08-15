@@ -2,6 +2,7 @@
  /log/
  /memory_persist/
 .log/
+.log
 
 HELP.md
 target/
@@ -36,3 +37,5 @@ build/
 
 ### VS Code ###
 .vscode/
+/log/blog.log.2024-08-13.0.gz
+/log/blog.log.2024-08-14.0.gz

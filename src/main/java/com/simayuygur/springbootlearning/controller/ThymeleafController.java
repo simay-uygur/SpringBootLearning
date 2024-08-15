@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
@@ -37,5 +38,16 @@ public class ThymeleafController {
         return "thymeleaf4";
     }
 
+    //http://localhost:8080/thymeleaf5?id=4&nameEntered=SimayUygur
+    @GetMapping("/thymeleaf5")
+    public String getThymeleaf5ModelObject(Model model, @RequestParam(name = "id" ,required = false, defaultValue = "0") Long id, @RequestParam(name = "nameEntered" ) String nameEntered) {
+        if(id != null) {
+            model.addAttribute("key_model2", "welcome to thymeleaf5 site's id is " + id + " and name is " + nameEntered );
+        } else {
+            model.addAttribute("key_model2", "welcome to thymeleaf5 and id COULD NOT FOUND!!!" );
+        }
+
+        return "thymeleaf5";
+    }
 
 }
