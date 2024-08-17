@@ -88,7 +88,7 @@ public class EmployeeServicesImpl implements EmployeeServices {
     @DeleteMapping("/employees/{id}")
     @Override
     public ResponseEntity<EmployeeDto> deleteEmployee(Long id) throws Throwable {
-        EmployeeEntity employeeEntity = employeeRepository.findById(id).
+        EmployeeEntity employeeEntity = (EmployeeEntity) employeeRepository.findById(id).
                 orElseThrow(() -> new ResourceNotFoundException("Employee does not exist with id " +id + " for deletion"));
         employeeRepository.deleteById(id);
         Map<String, Boolean> response = new HashMap<>();
