@@ -1,7 +1,6 @@
 package com.simayuygur.springbootlearning.controller;
 
-import com.simayuygur.springbootlearning.dto.TeacherDto;
-import jakarta.annotation.PostConstruct;
+import com.simayuygur.springbootlearning.business.dto.TeacherDto;
 import jakarta.validation.Valid;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Controller;

@@ -1,4 +1,4 @@
-package com.simayuygur.springbootlearning.dto;
+package com.simayuygur.springbootlearning.business.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

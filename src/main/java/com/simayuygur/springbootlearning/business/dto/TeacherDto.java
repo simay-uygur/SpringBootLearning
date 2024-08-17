@@ -1,4 +1,4 @@
-package com.simayuygur.springbootlearning.dto;
+package com.simayuygur.springbootlearning.business.dto;
 
 import jakarta.validation.constraints.*;
 import lombok.*;

@@ -1,6 +1,6 @@
-package com.simayuygur.springbootlearning.dto;
+package com.simayuygur.springbootlearning.business.dto;
 
-import com.simayuygur.springbootlearning.entity.BaseEntity;
+import com.simayuygur.springbootlearning.data.entity.BaseEntity;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

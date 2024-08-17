@@ -1,4 +1,4 @@
-package com.simayuygur.springbootlearning.entity;
+package com.simayuygur.springbootlearning.data.entity;
 
 
 import jakarta.persistence.Column;

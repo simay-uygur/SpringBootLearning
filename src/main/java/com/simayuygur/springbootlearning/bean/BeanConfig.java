@@ -1,6 +1,6 @@
 package com.simayuygur.springbootlearning.bean;
 
-import com.simayuygur.springbootlearning.dto.BeanDto;
+import com.simayuygur.springbootlearning.business.dto.BeanDto;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
