@@ -79,7 +79,7 @@ public class EmployeeServicesImpl implements EmployeeServices {
         employee.setSurname(employeeEntity.getSurname());
         employee.setEmailId(employeeEntity.getEmailId());
 
-        EmployeeEntity updatedEmployee = (EmployeeEntity) employeeRepository.save(id);
+        EmployeeEntity updatedEmployee = (EmployeeEntity) employeeRepository.save(employee);
         EmployeeDto updatedEmployeeDto = entityToDto(updatedEmployee);
 
         return ResponseEntity.ok(updatedEmployeeDto);

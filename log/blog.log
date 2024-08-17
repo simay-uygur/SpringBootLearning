@@ -39,3 +39,370 @@ java.lang.IllegalArgumentException: Could not resolve domain type of interface c
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
 
+2024-08-17T16:30:21.951+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 22.0.2 with PID 5471 (/Users/simayy/IdeaProjects/SpringBootLearning/target/classes started by simayy in /Users/simayy/IdeaProjects/SpringBootLearning)
+2024-08-17T16:30:21.952+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-17T16:30:21.971+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-17T16:30:21.972+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-17T16:30:22.424+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:30:22.425+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-17T16:30:22.440+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.simayuygur.springbootlearning.data.repository.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-17T16:30:22.440+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2024-08-17T16:30:22.445+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:30:22.445+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-17T16:30:22.456+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-08-17T16:30:22.846+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-17T16:30:22.853+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-17T16:30:22.853+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17T16:30:22.882+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-17T16:30:22.883+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 911 ms
+2024-08-17T16:30:22.947+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-17T16:30:23.067+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/denemedb user=ROOT
+2024-08-17T16:30:23.068+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-17T16:30:23.076+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2024-08-17T16:30:23.184+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-17T16:30:23.219+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-17T16:30:23.243+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-17T16:30:23.399+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-17T16:30:23.428+03:00  WARN 5471 --- [SpringBootLearning] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-17T16:30:23.514+03:00 ERROR 5471 --- [SpringBootLearning] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: Entity 'com.simayuygur.springbootlearning.data.entity.EmployeeEntity' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+2024-08-17T16:30:23.514+03:00  WARN 5471 --- [SpringBootLearning] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.simayuygur.springbootlearning.data.entity.EmployeeEntity' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+2024-08-17T16:30:23.515+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-17T16:30:23.637+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-17T16:30:23.640+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-08-17T16:30:23.651+03:00  INFO 5471 --- [SpringBootLearning] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-08-17T16:30:23.663+03:00 ERROR 5471 --- [SpringBootLearning] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Entity 'com.simayuygur.springbootlearning.data.entity.EmployeeEntity' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.11.jar:6.1.11]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.2.jar:3.3.2]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.2.jar:3.3.2]
+	at com.simayuygur.springbootlearning.SpringBootLearningApplication.main(SpringBootLearningApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.2.jar:3.3.2]
+Caused by: org.hibernate.AnnotationException: Entity 'com.simayuygur.springbootlearning.data.entity.EmployeeEntity' has no identifier (every '@Entity' class must declare or inherit at least one '@Id' or '@EmbeddedId' property)
+	at org.hibernate.boot.model.internal.InheritanceState.determineDefaultAccessType(InheritanceState.java:279) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.internal.InheritanceState.getElementsToProcess(InheritanceState.java:215) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.internal.InheritanceState.postProcess(InheritanceState.java:160) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.handleIdentifier(EntityBinder.java:407) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.internal.EntityBinder.bindEntityClass(EntityBinder.java:248) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.internal.AnnotationBinder.bindClass(AnnotationBinder.java:399) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:259) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:281) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:324) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1431) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1502) ~[hibernate-core-6.5.2.Final.jar:6.5.2.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.11.jar:6.1.11]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.11.jar:6.1.11]
+	... 18 common frames omitted
+
+2024-08-17T16:31:23.189+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 22.0.2 with PID 5493 (/Users/simayy/IdeaProjects/SpringBootLearning/target/classes started by simayy in /Users/simayy/IdeaProjects/SpringBootLearning)
+2024-08-17T16:31:23.189+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-17T16:31:23.208+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-17T16:31:23.208+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-17T16:31:23.605+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:31:23.605+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-17T16:31:23.619+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.simayuygur.springbootlearning.data.repository.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-17T16:31:23.619+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2024-08-17T16:31:23.623+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:31:23.624+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-17T16:31:23.634+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-08-17T16:31:24.005+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-17T16:31:24.011+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-17T16:31:24.011+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17T16:31:24.035+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-17T16:31:24.035+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 827 ms
+2024-08-17T16:31:24.099+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-17T16:31:24.205+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/denemedb user=ROOT
+2024-08-17T16:31:24.206+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-17T16:31:24.212+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2024-08-17T16:31:24.317+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-17T16:31:24.343+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-17T16:31:24.359+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-17T16:31:24.500+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-17T16:31:24.523+03:00  WARN 5493 --- [SpringBootLearning] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-17T16:31:24.983+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-17T16:31:25.014+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:31:25.165+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.controller.BeanController          : log info invoked 
+2024-08-17T16:31:25.169+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   before bean started, this method exist
+2024-08-17T16:31:25.213+03:00  WARN 5493 --- [SpringBootLearning] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-17T16:31:25.699+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-17T16:31:25.705+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-17T16:31:25.756+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-17T16:31:25.766+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Started SpringBootLearningApplication in 2.741 seconds (process running for 3.04)
+2024-08-17T16:31:26.072+03:00  INFO 5493 --- [SpringBootLearning] [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-17T16:31:26.073+03:00  INFO 5493 --- [SpringBootLearning] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-17T16:31:26.074+03:00  INFO 5493 --- [SpringBootLearning] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-17T16:33:39.051+03:00  INFO 5493 --- [SpringBootLearning] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-08-17T16:33:39.075+03:00  INFO 5493 --- [SpringBootLearning] [Thread-6] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   after bean ended, this method exist
+2024-08-17T16:33:39.076+03:00  INFO 5493 --- [SpringBootLearning] [Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:33:39.081+03:00  INFO 5493 --- [SpringBootLearning] [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-17T16:33:39.297+03:00  INFO 5493 --- [SpringBootLearning] [Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-17T16:33:39.358+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 22.0.2 with PID 5493 (/Users/simayy/IdeaProjects/SpringBootLearning/target/classes started by simayy in /Users/simayy/IdeaProjects/SpringBootLearning)
+2024-08-17T16:33:39.358+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-17T16:33:39.485+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:33:39.485+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-17T16:33:39.490+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.simayuygur.springbootlearning.data.repository.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-17T16:33:39.490+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2024-08-17T16:33:39.492+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:33:39.492+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-17T16:33:39.495+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 1 JPA repository interface.
+2024-08-17T16:33:39.569+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-17T16:33:39.569+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-17T16:33:39.569+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17T16:33:39.575+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-17T16:33:39.576+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 217 ms
+2024-08-17T16:33:39.603+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2024-08-17T16:33:39.606+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:file:./memory_persist/denemedb user=ROOT
+2024-08-17T16:33:39.606+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2024-08-17T16:33:39.606+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2024-08-17T16:33:39.638+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-17T16:33:39.639+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-17T16:33:39.642+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-17T16:33:39.643+03:00  WARN 5493 --- [SpringBootLearning] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-17T16:33:39.662+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-17T16:33:39.664+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:33:39.711+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.controller.BeanController          : log info invoked 
+2024-08-17T16:33:39.713+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   before bean started, this method exist
+2024-08-17T16:33:39.731+03:00  WARN 5493 --- [SpringBootLearning] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-17T16:33:39.957+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-17T16:33:39.960+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-17T16:33:39.980+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-17T16:33:39.986+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Started SpringBootLearningApplication in 0.638 seconds (process running for 137.273)
+2024-08-17T16:33:39.987+03:00  INFO 5493 --- [SpringBootLearning] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-08-17T16:34:34.965+03:00  INFO 5493 --- [SpringBootLearning] [SpringApplicationShutdownHook] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   after bean ended, this method exist
+2024-08-17T16:34:34.968+03:00  INFO 5493 --- [SpringBootLearning] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:34:34.969+03:00  INFO 5493 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2024-08-17T16:34:34.974+03:00  INFO 5493 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2024-08-17T16:34:36.161+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 22.0.2 with PID 5535 (/Users/simayy/IdeaProjects/SpringBootLearning/target/classes started by simayy in /Users/simayy/IdeaProjects/SpringBootLearning)
+2024-08-17T16:34:36.162+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-17T16:34:36.180+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-17T16:34:36.181+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-17T16:34:36.616+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:34:36.617+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-17T16:34:36.632+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.simayuygur.springbootlearning.data.repository.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-17T16:34:36.632+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2024-08-17T16:34:36.636+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:34:36.637+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-17T16:34:36.647+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-08-17T16:34:37.056+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-17T16:34:37.064+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-17T16:34:37.064+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17T16:34:37.093+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-17T16:34:37.094+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 913 ms
+2024-08-17T16:34:37.175+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-17T16:34:37.296+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/denemedb user=ROOT
+2024-08-17T16:34:37.297+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-17T16:34:37.303+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2024-08-17T16:34:37.410+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-17T16:34:37.440+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-17T16:34:37.457+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-17T16:34:37.604+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-17T16:34:37.632+03:00  WARN 5535 --- [SpringBootLearning] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-17T16:34:38.118+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-17T16:34:38.144+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:34:38.309+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] c.s.s.controller.BeanController          : log info invoked 
+2024-08-17T16:34:38.312+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   before bean started, this method exist
+2024-08-17T16:34:38.351+03:00  WARN 5535 --- [SpringBootLearning] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-17T16:34:38.848+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-17T16:34:38.854+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-17T16:34:38.906+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-17T16:34:38.916+03:00  INFO 5535 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Started SpringBootLearningApplication in 2.934 seconds (process running for 3.279)
+2024-08-17T16:34:38.928+03:00  INFO 5535 --- [SpringBootLearning] [SpringApplicationShutdownHook] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   after bean ended, this method exist
+2024-08-17T16:34:38.928+03:00  INFO 5535 --- [SpringBootLearning] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:34:38.931+03:00  INFO 5535 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-17T16:34:39.152+03:00  INFO 5535 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-17T16:35:07.072+03:00  INFO 5549 --- [SpringBootLearning] [main] c.s.s.SpringBootLearningApplicationTests : Starting SpringBootLearningApplicationTests using Java 22.0.2 with PID 5549 (started by simayy in /Users/simayy/IdeaProjects/SpringBootLearning)
+2024-08-17T16:35:07.073+03:00  INFO 5549 --- [SpringBootLearning] [main] c.s.s.SpringBootLearningApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-08-17T16:35:07.455+03:00  INFO 5549 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:35:07.456+03:00  INFO 5549 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-17T16:35:07.470+03:00  INFO 5549 --- [SpringBootLearning] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.simayuygur.springbootlearning.data.repository.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-17T16:35:07.471+03:00  INFO 5549 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JDBC repository interfaces.
+2024-08-17T16:35:07.476+03:00  INFO 5549 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:35:07.476+03:00  INFO 5549 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-17T16:35:07.488+03:00  INFO 5549 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-08-17T16:35:07.799+03:00  INFO 5549 --- [SpringBootLearning] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-17T16:35:07.826+03:00  INFO 5549 --- [SpringBootLearning] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-17T16:35:07.839+03:00  INFO 5549 --- [SpringBootLearning] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-17T16:35:07.962+03:00  INFO 5549 --- [SpringBootLearning] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-17T16:35:07.973+03:00  INFO 5549 --- [SpringBootLearning] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-17T16:35:08.083+03:00  INFO 5549 --- [SpringBootLearning] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/denemedb user=ROOT
+2024-08-17T16:35:08.084+03:00  INFO 5549 --- [SpringBootLearning] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-17T16:35:08.095+03:00  WARN 5549 --- [SpringBootLearning] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-17T16:35:08.485+03:00  INFO 5549 --- [SpringBootLearning] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-17T16:35:08.506+03:00  INFO 5549 --- [SpringBootLearning] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:35:08.655+03:00  INFO 5549 --- [SpringBootLearning] [main] c.s.s.controller.BeanController          : log info invoked 
+2024-08-17T16:35:08.660+03:00  INFO 5549 --- [SpringBootLearning] [main] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   before bean started, this method exist
+2024-08-17T16:35:08.759+03:00  WARN 5549 --- [SpringBootLearning] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-17T16:35:09.162+03:00  INFO 5549 --- [SpringBootLearning] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2024-08-17T16:35:09.175+03:00  INFO 5549 --- [SpringBootLearning] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-17T16:35:09.219+03:00  INFO 5549 --- [SpringBootLearning] [main] c.s.s.SpringBootLearningApplicationTests : Started SpringBootLearningApplicationTests in 2.317 seconds (process running for 2.817)
+2024-08-17T16:35:09.573+03:00  INFO 5549 --- [SpringBootLearning] [SpringApplicationShutdownHook] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   after bean ended, this method exist
+2024-08-17T16:35:09.574+03:00  INFO 5549 --- [SpringBootLearning] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:35:09.576+03:00  INFO 5549 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-17T16:35:09.580+03:00  INFO 5549 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-17T16:35:26.374+03:00  INFO 5557 --- [SpringBootLearning] [main] c.s.s.SpringBootLearningApplicationTests : Starting SpringBootLearningApplicationTests using Java 22.0.2 with PID 5557 (started by simayy in /Users/simayy/IdeaProjects/SpringBootLearning)
+2024-08-17T16:35:26.375+03:00  INFO 5557 --- [SpringBootLearning] [main] c.s.s.SpringBootLearningApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-08-17T16:35:26.775+03:00  INFO 5557 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:35:26.776+03:00  INFO 5557 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-17T16:35:26.789+03:00  INFO 5557 --- [SpringBootLearning] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.simayuygur.springbootlearning.data.repository.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-17T16:35:26.790+03:00  INFO 5557 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2024-08-17T16:35:26.794+03:00  INFO 5557 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:35:26.795+03:00  INFO 5557 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-17T16:35:26.808+03:00  INFO 5557 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2024-08-17T16:35:27.139+03:00  INFO 5557 --- [SpringBootLearning] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-17T16:35:27.165+03:00  INFO 5557 --- [SpringBootLearning] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-17T16:35:27.178+03:00  INFO 5557 --- [SpringBootLearning] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-17T16:35:27.300+03:00  INFO 5557 --- [SpringBootLearning] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-17T16:35:27.311+03:00  INFO 5557 --- [SpringBootLearning] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-17T16:35:27.417+03:00  INFO 5557 --- [SpringBootLearning] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/denemedb user=ROOT
+2024-08-17T16:35:27.418+03:00  INFO 5557 --- [SpringBootLearning] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-17T16:35:27.429+03:00  WARN 5557 --- [SpringBootLearning] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-17T16:35:27.835+03:00  INFO 5557 --- [SpringBootLearning] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-17T16:35:27.858+03:00  INFO 5557 --- [SpringBootLearning] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:35:28.020+03:00  INFO 5557 --- [SpringBootLearning] [main] c.s.s.controller.BeanController          : log info invoked 
+2024-08-17T16:35:28.023+03:00  INFO 5557 --- [SpringBootLearning] [main] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   before bean started, this method exist
+2024-08-17T16:35:28.127+03:00  WARN 5557 --- [SpringBootLearning] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-17T16:35:28.539+03:00  INFO 5557 --- [SpringBootLearning] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2024-08-17T16:35:28.553+03:00  INFO 5557 --- [SpringBootLearning] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-17T16:35:28.596+03:00  INFO 5557 --- [SpringBootLearning] [main] c.s.s.SpringBootLearningApplicationTests : Started SpringBootLearningApplicationTests in 2.389 seconds (process running for 2.871)
+2024-08-17T16:35:28.931+03:00  INFO 5557 --- [SpringBootLearning] [SpringApplicationShutdownHook] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   after bean ended, this method exist
+2024-08-17T16:35:28.932+03:00  INFO 5557 --- [SpringBootLearning] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:35:28.933+03:00  INFO 5557 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-17T16:35:28.942+03:00  INFO 5557 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-17T16:36:16.206+03:00  INFO 5575 --- [SpringBootLearning] [main] c.s.s.SpringBootLearningApplicationTests : Starting SpringBootLearningApplicationTests using Java 22.0.2 with PID 5575 (started by simayy in /Users/simayy/IdeaProjects/SpringBootLearning)
+2024-08-17T16:36:16.206+03:00  INFO 5575 --- [SpringBootLearning] [main] c.s.s.SpringBootLearningApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-08-17T16:36:16.580+03:00  INFO 5575 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:36:16.581+03:00  INFO 5575 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-17T16:36:16.595+03:00  INFO 5575 --- [SpringBootLearning] [main] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.simayuygur.springbootlearning.data.repository.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-17T16:36:16.596+03:00  INFO 5575 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JDBC repository interfaces.
+2024-08-17T16:36:16.600+03:00  INFO 5575 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:36:16.600+03:00  INFO 5575 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-17T16:36:16.613+03:00  INFO 5575 --- [SpringBootLearning] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2024-08-17T16:36:16.936+03:00  INFO 5575 --- [SpringBootLearning] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-17T16:36:16.959+03:00  INFO 5575 --- [SpringBootLearning] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-17T16:36:16.972+03:00  INFO 5575 --- [SpringBootLearning] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-17T16:36:17.094+03:00  INFO 5575 --- [SpringBootLearning] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-17T16:36:17.105+03:00  INFO 5575 --- [SpringBootLearning] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-17T16:36:17.221+03:00  INFO 5575 --- [SpringBootLearning] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/denemedb user=ROOT
+2024-08-17T16:36:17.221+03:00  INFO 5575 --- [SpringBootLearning] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-17T16:36:17.233+03:00  WARN 5575 --- [SpringBootLearning] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-17T16:36:17.639+03:00  INFO 5575 --- [SpringBootLearning] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-17T16:36:17.660+03:00  INFO 5575 --- [SpringBootLearning] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:36:17.818+03:00  INFO 5575 --- [SpringBootLearning] [main] c.s.s.controller.BeanController          : log info invoked 
+2024-08-17T16:36:17.822+03:00  INFO 5575 --- [SpringBootLearning] [main] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   before bean started, this method exist
+2024-08-17T16:36:17.931+03:00  WARN 5575 --- [SpringBootLearning] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-17T16:36:18.445+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 22.0.2 with PID 5578 (/Users/simayy/IdeaProjects/SpringBootLearning/target/classes started by simayy in /Users/simayy/IdeaProjects/SpringBootLearning)
+2024-08-17T16:36:18.446+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-17T16:36:18.448+03:00  INFO 5575 --- [SpringBootLearning] [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2024-08-17T16:36:18.466+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-17T16:36:18.466+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-17T16:36:18.468+03:00  INFO 5575 --- [SpringBootLearning] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-17T16:36:18.514+03:00  INFO 5575 --- [SpringBootLearning] [main] c.s.s.SpringBootLearningApplicationTests : Started SpringBootLearningApplicationTests in 2.476 seconds (process running for 2.972)
+2024-08-17T16:36:18.858+03:00  INFO 5575 --- [SpringBootLearning] [SpringApplicationShutdownHook] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   after bean ended, this method exist
+2024-08-17T16:36:18.862+03:00  INFO 5575 --- [SpringBootLearning] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:36:18.863+03:00  INFO 5575 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-17T16:36:18.865+03:00  INFO 5575 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-17T16:36:18.879+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:36:18.879+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-17T16:36:18.893+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.simayuygur.springbootlearning.data.repository.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-17T16:36:18.893+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2024-08-17T16:36:18.897+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:36:18.898+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-17T16:36:18.908+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-08-17T16:36:19.281+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-17T16:36:19.289+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-17T16:36:19.289+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17T16:36:19.317+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-17T16:36:19.317+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 851 ms
+2024-08-17T16:36:19.384+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-17T16:36:19.496+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/denemedb user=ROOT
+2024-08-17T16:36:19.497+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-17T16:36:19.503+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2024-08-17T16:36:19.624+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-17T16:36:19.651+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-17T16:36:19.673+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-17T16:36:19.813+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-17T16:36:19.835+03:00  WARN 5578 --- [SpringBootLearning] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-17T16:36:20.278+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-17T16:36:20.303+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:36:20.448+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] c.s.s.controller.BeanController          : log info invoked 
+2024-08-17T16:36:20.451+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   before bean started, this method exist
+2024-08-17T16:36:20.495+03:00  WARN 5578 --- [SpringBootLearning] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-17T16:36:20.992+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-17T16:36:20.999+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-17T16:36:21.050+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-17T16:36:21.060+03:00  INFO 5578 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Started SpringBootLearningApplication in 2.8 seconds (process running for 3.143)
+2024-08-17T16:36:21.207+03:00  INFO 5578 --- [SpringBootLearning] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-17T16:36:21.207+03:00  INFO 5578 --- [SpringBootLearning] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-17T16:36:21.208+03:00  INFO 5578 --- [SpringBootLearning] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-17T16:36:28.454+03:00  INFO 5578 --- [SpringBootLearning] [SpringApplicationShutdownHook] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   after bean ended, this method exist
+2024-08-17T16:36:28.456+03:00  INFO 5578 --- [SpringBootLearning] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:36:28.458+03:00  INFO 5578 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-17T16:36:28.460+03:00  INFO 5578 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-08-17T16:36:29.647+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Starting SpringBootLearningApplication using Java 22.0.2 with PID 5587 (/Users/simayy/IdeaProjects/SpringBootLearning/target/classes started by simayy in /Users/simayy/IdeaProjects/SpringBootLearning)
+2024-08-17T16:36:29.648+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : No active profile set, falling back to 1 default profile: "default"
+2024-08-17T16:36:29.668+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-17T16:36:29.668+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-17T16:36:30.076+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:36:30.076+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-08-17T16:36:30.090+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data JDBC - Could not safely identify store assignment for repository candidate interface com.simayuygur.springbootlearning.data.repository.EmployeeRepository; If you want this repository to be a JDBC repository, consider annotating your entities with one of these annotations: org.springframework.data.relational.core.mapping.Table.
+2024-08-17T16:36:30.090+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2024-08-17T16:36:30.094+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-08-17T16:36:30.095+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-17T16:36:30.106+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 1 JPA repository interface.
+2024-08-17T16:36:30.477+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-08-17T16:36:30.483+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-08-17T16:36:30.483+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-17T16:36:30.513+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-08-17T16:36:30.513+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 845 ms
+2024-08-17T16:36:30.577+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-08-17T16:36:30.690+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:file:./memory_persist/denemedb user=ROOT
+2024-08-17T16:36:30.692+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-08-17T16:36:30.698+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:./memory_persist/denemedb'
+2024-08-17T16:36:30.803+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-17T16:36:30.830+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-17T16:36:30.849+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-08-17T16:36:30.987+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-17T16:36:31.009+03:00  WARN 5587 --- [SpringBootLearning] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-17T16:36:31.440+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-17T16:36:31.464+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T16:36:31.607+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] c.s.s.controller.BeanController          : log info invoked 
+2024-08-17T16:36:31.611+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   before bean started, this method exist
+2024-08-17T16:36:31.651+03:00  WARN 5587 --- [SpringBootLearning] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-17T16:36:32.129+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-08-17T16:36:32.135+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2024-08-17T16:36:32.187+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-08-17T16:36:32.198+03:00  INFO 5587 --- [SpringBootLearning] [restartedMain] c.s.s.SpringBootLearningApplication      : Started SpringBootLearningApplication in 2.728 seconds (process running for 3.052)
+2024-08-17T16:36:32.427+03:00  INFO 5587 --- [SpringBootLearning] [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-17T16:36:32.427+03:00  INFO 5587 --- [SpringBootLearning] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-08-17T16:36:32.428+03:00  INFO 5587 --- [SpringBootLearning] [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-17T16:38:55.742+03:00  WARN 5587 --- [SpringBootLearning] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s932ms).
+2024-08-17T17:25:42.031+03:00  WARN 5587 --- [SpringBootLearning] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=46m46s289ms).
+2024-08-17T17:35:48.480+03:00  WARN 5587 --- [SpringBootLearning] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m36s362ms).
+2024-08-17T17:44:28.522+03:00  WARN 5587 --- [SpringBootLearning] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=8m40s43ms).
+2024-08-17T17:46:55.515+03:00  WARN 5587 --- [SpringBootLearning] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m56s973ms).
+2024-08-17T18:22:42.897+03:00  WARN 5587 --- [SpringBootLearning] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=35m47s382ms).
+2024-08-17T19:07:25.936+03:00  INFO 5587 --- [SpringBootLearning] [SpringApplicationShutdownHook] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   after bean ended, this method exist
+2024-08-17T19:07:25.938+03:00  INFO 5587 --- [SpringBootLearning] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-17T19:07:25.944+03:00  INFO 5587 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-17T19:07:25.949+03:00  INFO 5587 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
