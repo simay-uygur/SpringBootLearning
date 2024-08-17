@@ -23,7 +23,7 @@ public class EmployeeController  {
     //list
     //http://localhost:8080/api/v1/employees
     @GetMapping("/employees")
-    public List<EmployeeDto> getAllEmployees() {
+    public List<EmployeeDto>  getAllEmployees() {
         List<EmployeeDto> employeeDtoList = employeeServices.getAllEmployees();
         return employeeDtoList;
     }
