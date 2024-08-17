@@ -45,5 +45,4 @@ public class BaseEntity  {
     private Date date;
 
 
-
 }

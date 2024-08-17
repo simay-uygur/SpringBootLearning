@@ -13,24 +13,19 @@ import lombok.extern.log4j.Log4j2;
 @Log4j2
 @Entity
 @Table(name = "employees")
-public class EmployeeEntity {
+public class EmployeeEntity extends BaseEntity {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)  
-    @Column(name = "id")
-    private Long id;
-
-    @Column(name = "first_name" ,nullable = false)
+    @Column(name = "first_name")
     private String name;
 
-    @Column(name = "last_name", nullable = false)
+    @Column(name = "last_name")
     private String surname;
 
-    @Column(name = "email_name", nullable = false)
+    @Column(name = "email_name")
     private String emailId;
 
-    public EmployeeEntity(Long id, String name, String surname, String emailId) {
-        this.id = id;
+
+    public EmployeeEntity(String name, String surname, String emailId) {
         this.name = name;
         this.surname = surname;
         this.emailId = emailId;
