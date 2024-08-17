@@ -89,7 +89,7 @@ public class EmployeeServicesImpl implements EmployeeServices {
     @Override
     public ResponseEntity<EmployeeDto> deleteEmployee(Long id) throws Throwable {
         EmployeeEntity employeeEntity = employeeRepository.findById(id).
-                orElseThrow(() -> new ResourceNotFoundException("Employee does not exist with id " +id + " for deletion"))
+                orElseThrow(() -> new ResourceNotFoundException("Employee does not exist with id " +id + " for deletion"));
         employeeRepository.deleteById(id);
         Map<String, Boolean> response = new HashMap<>();
         response.put("deleted", Boolean.TRUE);
