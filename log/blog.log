@@ -3642,3 +3642,7 @@ Caused by: java.net.ConnectException: Connection refused
 2024-08-18T18:57:40.879+03:00  INFO 10158 --- [SpringBootLearning] [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2024-08-18T18:57:40.879+03:00  INFO 10158 --- [SpringBootLearning] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2024-08-18T18:57:40.881+03:00  INFO 10158 --- [SpringBootLearning] [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-08-18T19:05:39.484+03:00  INFO 10158 --- [SpringBootLearning] [SpringApplicationShutdownHook] c.s.s.business.dto.BeanDto               : BeanDto initialBeanMethod   after bean ended, this method exist
+2024-08-18T19:05:39.486+03:00  INFO 10158 --- [SpringBootLearning] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-08-18T19:05:39.488+03:00  INFO 10158 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-08-18T19:05:39.492+03:00  INFO 10158 --- [SpringBootLearning] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
