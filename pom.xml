@@ -68,6 +68,16 @@
             <scope>runtime</scope>
         </dependency>
 
+
+        <!-- servlet-->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>4.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+
         <!--mssql-->
       <!--  <dependency>
             <groupId>com.microsoft.sqlserver</groupId>
@@ -113,11 +123,20 @@
 
 
         <!-- swagger open api -->
+        <!--
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-ui</artifactId>
+                <version>1.8.0</version>
+            </dependency>
+        </!-->
+
         <dependency>
             <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-ui</artifactId>
-            <version>1.8.0</version>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.1.0</version>
         </dependency>
+
 
         <!-- model mapper-->
         <dependency>

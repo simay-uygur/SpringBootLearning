@@ -2,7 +2,6 @@ package com.simayuygur.springbootlearning.ui.rest;
 
 import com.simayuygur.springbootlearning.business.dto.EmployeeDto;
 import com.simayuygur.springbootlearning.business.services.EmployeeServices;
-import com.simayuygur.springbootlearning.data.repository.EmployeeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -18,7 +17,7 @@ import java.util.Map;
 public class EmployeeController  {
 
     @Autowired
-    EmployeeServices   employeeServices;
+    EmployeeServices  employeeServices;
 
 
     //root
