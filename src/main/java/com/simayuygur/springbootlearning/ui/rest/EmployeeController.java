@@ -18,7 +18,15 @@ import java.util.Map;
 public class EmployeeController  {
 
     @Autowired
-    EmployeeServices employeeServices;
+    EmployeeServices   employeeServices;
+
+
+    //root
+    //http://localhost:8080/api/v1/index
+    @GetMapping({"/index", "/"})
+    public String getRoot() {
+        return "index";
+    }
 
     //list
     //http://localhost:8080/api/v1/employees
@@ -31,9 +39,9 @@ public class EmployeeController  {
      //find
      //http://localhost:8080/api/v1/employees/1
      @GetMapping("/employees/{id}")
-    public ResponseEntity<EmployeeDto> getEmployeeById(@PathVariable Long id) {
-         List<EmployeeDto> employeeDtoList = employeeServices.getAllEmployees();
-         return ResponseEntity.ok().body(employeeDtoList.get(0)); //why
+    public ResponseEntity<EmployeeDto> getEmployeeById(@PathVariable Long id) throws Throwable {
+         ResponseEntity<EmployeeDto> employeeDtoResponseEntity = employeeServices.getEmployeeById(id);
+         return employeeDtoResponseEntity;
     }
 
     //save
