@@ -99,3 +99,15 @@ org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2024-08-18 18:57:52.586384+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELE"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+SELE [42001-224]
+2024-08-18 18:57:53.380828+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELE"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+SELE [42001-224]
+2024-08-18 18:57:54.087226+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELE"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+SELE [42001-224]
+2024-08-18 18:57:54.670502+03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]SELE"; expected "SAVEPOINT, SCRIPT, SHUTDOWN"; SQL statement:
+SELE [42001-224]
