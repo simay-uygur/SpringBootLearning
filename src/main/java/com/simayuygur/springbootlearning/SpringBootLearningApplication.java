@@ -8,10 +8,12 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 @EnableJpaAuditing(auditorAwareRef = "auditorAware")
 
 //Security inactive
-@SpringBootApplication(exclude ={
+@SpringBootApplication
+/*   before using web security
+(exclude ={
         org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration.class,
         org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration.class
-})
+})*/
   public class  SpringBootLearningApplication {
 
     public static void main(String[] args) {
