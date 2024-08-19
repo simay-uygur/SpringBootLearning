@@ -6,12 +6,22 @@ This is a project focusing how spring boot works and learning the elements for a
 - Spring Boot 
 - Spring MVC
 - Spring Data 
-- Spring REST
+- Spring REST (http status) 404,403-client 
 - Spring Security
 
+## System Login
+> Register 
+> Login(username+password)
+> Authorization(Jwt)
 
 ## Lesson Steps
-> Spring MVC 
+> Spring Framework
+> Spring Boot
+> Spring MVC
+> Spring Data(Jpa Hibernate)
+> Spring Rest(Restful ==> Jersey)
+> Spring Security 
+
 
 
 ### Reference Documentation
@@ -24,7 +34,7 @@ docker
 * [H2 console](http://localhost:8080/h2-console/l)
 * [Swagger](http://localhost:8080/swagger-ui.html)
 
-
+## Docker Deployment
 ```sh
 1. STEP 
 $   ./mnvw clean package -DskipTests
@@ -33,6 +43,8 @@ $   ./mnvw clean package -DskipTests
 $   docker compose up  
 $   docker ps
 
+
+########POSTMAN#########
 3. STEP
 POSTMAN
 
