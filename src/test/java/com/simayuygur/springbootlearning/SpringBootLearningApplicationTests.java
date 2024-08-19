@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import test.TestCrud;
 
+import java.util.List;
+
 @SpringBootTest
 class  SpringBootLearningApplicationTests implements TestCrud {
 
@@ -19,6 +21,7 @@ class  SpringBootLearningApplicationTests implements TestCrud {
     void contextLoads() {
     }
 
+    @Test
     @Override
     public void testCreate() {
         EmployeeEntity employeeEntity = EmployeeEntity
@@ -31,23 +34,34 @@ class  SpringBootLearningApplicationTests implements TestCrud {
         assertNotNull(employeeRepository.findById(1L).get());
     }
 
-    @Override
-    public void testUpdate() {
-
-    }
-
-    @Override
-    public void testDelete() {
-
-    }
-
-    @Override
-    public void testList() {
-
-    }
-
+    //find by id
+    @Test
     @Override
     public void testFindById() {
+        EmployeeEntity employeeEntity = employeeRepository.findById(1L).get();
+        assertEquals("Simay TEST", employeeEntity.getName());
+    }
 
+    @Test
+    @Override
+    public void testList() {
+        List<EmployeeEntity> list = employeeRepository.findAll();
+        assertThat(list).size().isGreaterThan(0);   // is not null also works i guess
+    }
+
+    @Test
+    @Override
+    public void testUpdate() {
+        EmployeeEntity employeeEntity = employeeRepository.findById(1L).get();
+        employeeEntity.setName("Updated TEST");
+        employeeRepository.save(employeeEntity);
+        assertEquals("Updated TEST", employeeRepository.findById(1L).get().getName());
+    }
+
+    @Test
+    @Override
+    public void testDelete()  {
+        employeeRepository.deleteById(1L);
+        assertThat(employeeRepository.existsById(1L)).isFalse();
     }
 }
